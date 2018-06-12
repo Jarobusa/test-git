@@ -1,0 +1,128 @@
+{
+  {
+    "NSP"
+  },
+
+	"WebAuthenticationDetail": {
+		"ParentCredential": {
+			"Key": "wIKCu7DcXglEBsfr",
+			"Password": "ZvOeadD1nDsSApVDXrGkxF0bK"
+		},
+		"UserCredential": {
+			"Key": "wIKCu7DcXglEBsfr",
+			"Password": "ZvOeadD1nDsSApVDXrGkxF0bK"
+		}
+	},
+	"ClientDetail": {
+		"AccountNumber": "510087500",
+		"MeterNumber": "118763236",
+		"IntegratorId": null,
+		"RegionSpecified": false,
+		"Localization": null
+	},
+	"TransactionDetail": {
+		"CustomerTransactionId": "***Rate Available Services v10 Request using VC#***",
+		"Localization": null
+	},
+	"Version": {
+		"ServiceId": "crs",
+		"Major": 20,
+		"Intermediate": 0,
+		"Minor": 0
+	},
+	"ReturnTransitAndCommit": true,
+	"ReturnTransitAndCommitSpecified": true,
+	"CarrierCodes": [1],
+	"VariableOptions": null,
+	"ConsolidationKey": null,
+	"RequestedShipment": {
+		"ShipTimestamp": "2017-10-26T10:05:16.1694182-06:00",
+		"ShipTimestampSpecified": true,
+		"DropoffType": 2,
+		"DropoffTypeSpecified": true,
+		"ServiceTypeSpecified": false,
+		"PackagingType": 10,
+		"PackagingTypeSpecified": true,
+		"VariationOptions": null,
+		"TotalWeight": null,
+		"TotalInsuredValue": null,
+		"PreferredCurrency": null,
+		"ShipmentAuthorizationDetail": null,
+		"Shipper": {
+			"AccountNumber": null,
+			"Tins": null,
+			"Contact": null,
+			"Address": {
+				"StreetLines": null,
+				"City": null,
+				"StateOrProvinceCode": "UT",
+				"PostalCode": "84660",
+				"UrbanizationCode": null,
+				"CountryCode": "US",
+				"CountryName": null,
+				"ResidentialSpecified": false
+			}
+		},
+		"Recipient": {
+			"AccountNumber": null,
+			"Tins": null,
+			"Contact": null,
+			"Address": {
+				"StreetLines": null,
+				"City": null,
+				"StateOrProvinceCode": "",
+				"PostalCode": "60402",
+				"UrbanizationCode": null,
+				"CountryCode": "US",
+				"CountryName": null,
+				"ResidentialSpecified": false
+			}
+		},
+		"RecipientLocationNumber": null,
+		"Origin": null,
+		"SoldTo": null,
+		"ShippingChargesPayment": null,
+		"SpecialServicesRequested": null,
+		"ExpressFreightDetail": null,
+		"FreightShipmentDetail": null,
+		"DeliveryInstructions": null,
+		"VariableHandlingChargeDetail": null,
+		"CustomsClearanceDetail": null,
+		"PickupDetail": null,
+		"SmartPostDetail": null,
+		"BlockInsightVisibilitySpecified": false,
+		"LabelSpecification": null,
+		"ShippingDocumentSpecification": null,
+		"RateRequestTypes": [0],
+		"EdtRequestTypeSpecified": false,
+		"PackageCount": "1",
+		"ShipmentOnlyFields": null,
+		"ConfigurationData": null,
+		"RequestedPackageLineItems": [{
+			"SequenceNumber": "1",
+			"GroupNumber": null,
+			"GroupPackageCount": "1",
+			"VariableHandlingChargeDetail": null,
+			"InsuredValue": null,
+			"Weight": {
+				"Units": 1,
+				"UnitsSpecified": true,
+				"Value": 3.02237446994612,
+				"ValueSpecified": true
+			},
+			"Dimensions": {
+				"Length": "14",
+				"Width": "10",
+				"Height": "6",
+				"Units": 1,
+				"UnitsSpecified": true
+			},
+			"PhysicalPackagingSpecified": false,
+			"ItemDescription": null,
+			"ItemDescriptionForClearance": null,
+			"CustomerReferences": null,
+			"SpecialServicesRequested": null,
+			"ContentRecords": null
+		}]
+	}
+}
